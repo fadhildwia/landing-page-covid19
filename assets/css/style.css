@@ -1,0 +1,84 @@
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2 {
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+ul li {
+    font-family: 'Gelion', sans-serif;
+    list-style: none;
+}
+
+a,
+p {
+    font-family: 'Gelion', sans-serif;
+    text-decoration: none;
+}
+
+
+/*=============TOP MAIN=============*/
+
+.top-main {
+    background-image: url(/assets/images/background-top.png);
+    background-size: cover;
+    padding: 300px 0px;
+}
+
+.container {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.container h1 {
+    font-size: 50px;
+    color: #035755;
+    font-weight: bold;
+    line-height: 130%;
+}
+
+.container h2 {
+    font-size: 30px;
+    color: #FA5652;
+    font-weight: bold;
+    line-height: 120%;
+}
+
+.container p {
+    width: 700px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+.btn-main {
+    margin: 20px;
+}
+
+.btn {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 40px;
+    display: inline-block;
+    border-radius: 65px;
+}
+
+.btn-bg {
+    background-color: #FB4C47;
+}
