@@ -48,24 +48,20 @@ header {
 
 .logo {
     width: 65px;
-    margin-right: 20px;
-    margin-left: 200px;
+    padding-right: 20px;
+    padding-left: 50px;
 }
 
 .header-right {
     float: right;
-    margin-right: 200px;
-    margin-top: 20px;
+    padding-right: 50px;
+    padding-top: 20px;
 }
 
-ul,
-li {
+.menu {
     float: left;
-    padding-right: 40px;
-    margin-top: 10px;
-}
-
-li a {
+    display: inline-block;
+    margin: 20px 20px;
     font-size: 18px;
     font-weight: normal;
     color: #035755;
@@ -79,19 +75,28 @@ li a {
     border-color: #FB4C47;
 }
 
+.menu:hover {
+    border-bottom: solid 3px #FA5652;
+}
+
+.contact:hover {
+    background-color: #FB4C47;
+    color: #fff;
+}
+
 
 /*=============TOP MAIN=============*/
 
 .top-main {
     background-image: url(/assets/images/background-top.png);
     background-size: cover;
-    padding-top: 400px;
-    padding-bottom: 200px;
-    padding-left: 200px;
+    padding-top: 140px;
+    padding-bottom: 450px;
+    padding-left: 50px;
 }
 
 .container {
-    width: cover;
+    width: 1270px;
     margin: 0 auto;
 }
 
