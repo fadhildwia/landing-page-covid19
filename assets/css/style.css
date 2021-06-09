@@ -37,11 +37,13 @@ p {
 .top-main {
     background-image: url(/assets/images/background-top.png);
     background-size: cover;
-    padding: 300px 0px;
+    padding-top: 400px;
+    padding-bottom: 200px;
+    padding-left: 200px;
 }
 
 .container {
-    width: 1920px;
+    width: cover;
     margin: 0 auto;
 }
 
@@ -66,9 +68,7 @@ p {
     font-size: 25px;
 }
 
-.btn-main {
-    margin: 20px;
-}
+.btn-main {}
 
 .btn {
     color: #fff;
