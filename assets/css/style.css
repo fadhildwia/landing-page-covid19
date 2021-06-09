@@ -135,3 +135,106 @@ header {
     color: #fff;
     background-color: #FB4C47;
 }
+
+/* ================COVID ABOUT=============== */
+.covid-about-main {
+  height: 700px;
+  width: 100%;
+}
+.image-about {
+  float: left;
+  width: 700px;
+  height: 700px;
+}
+
+.covid-about-main-right {
+  float: right;
+  padding-top: 120px;
+}
+.heading h1 {
+  font-size: 50px;
+  color: #035755;
+  font-weight: bold;
+  line-height: 130%;
+}
+
+.heading h2 {
+  padding-bottom: 5px;
+  font-size: 30px;
+  color: #fa5652;
+  font-weight: bold;
+  line-height: 120%;
+}
+
+.heading p {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  line-height: 200%;
+  color: #4b4f51;
+}
+.covid-about-main-right .heading p {
+  width: 600px;
+}
+
+.btn-about {
+  font-weight: bold;
+  padding: 20px 40px;
+  display: inline-block;
+  border-radius: 65px;
+  background-color: #fa5652;
+  opacity: 0.3;
+}
+.btn-bg-about {
+  font-size: 24px;
+  color: #ffffff;
+}
+/* ====================covid-contagion============================= */
+.covid-contagion-main {
+  height: 800px;
+  width: 100%;
+  text-align: center;
+}
+.covid-contagion-main .heading p {
+  font-size: 18px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 50px 110px 110px 110px;
+  height: 400px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 30px;
+  text-align: center;
+}
+.grid-item .container {
+  padding: 40px;
+  border-radius: 10%;
+  height: 400px;
+  width: 300px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.contagion-image {
+  height: 250px;
+  width: 250px;
+  padding-bottom: 12px;
+}
+
+.grid-item .container h1 {
+  font-size: 30px;
+}
+.grid-item .container p {
+  font-size: 18px;
+  width: 300px;
+  margin-top: 4%;
+  color: #4b4f51;
+  line-height: 150%;
+}
+.image-symptomps{
+    height: 90%;
+    width: 60%;
+}
