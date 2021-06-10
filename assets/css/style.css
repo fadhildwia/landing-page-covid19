@@ -15,9 +15,14 @@ div {
     padding: 0;
 }
 
-h1,
+h1 {
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 35px;
+}
+
 h2 {
     font-family: 'Red Hat Text', sans-serif;
+    font-size: 25px;
 }
 
 li {
@@ -25,50 +30,56 @@ li {
     list-style: none;
 }
 
-a,
+a {
+    font-family: 'Gelion', sans-serif;
+    text-decoration: none;
+}
+
 p {
     font-family: 'Gelion', sans-serif;
     text-decoration: none;
+    font-size: 20px;
 }
 
 
 /*=============HEADER==============*/
 
 header {
-    height: 100px;
+    height: 70px;
     width: 100%;
     position: fixed;
+    background-color: #fff;
 }
 
 .logo,
 .title {
-    margin-top: 30px;
+    margin-top: 10px;
     float: left;
 }
 
 .logo {
-    width: 65px;
+    width: 50px;
     padding-right: 20px;
-    padding-left: 50px;
 }
 
 .header-right {
     float: right;
-    padding-right: 50px;
-    padding-top: 20px;
+    margin-top: 10px;
 }
 
 .menu {
     float: left;
     display: inline-block;
-    margin: 20px 20px;
-    font-size: 18px;
+    margin: 15px 20px;
+    font-size: 15px;
     font-weight: normal;
     color: #035755;
 }
 
 .contact {
-    font-size: 18px;
+    font-size: 15px;
+    margin-top: 7px;
+    padding: 5px 10px;
     font-weight: normal;
     color: #FF383D;
     border-style: solid;
@@ -76,7 +87,7 @@ header {
 }
 
 .menu:hover {
-    border-bottom: solid 3px #FA5652;
+    border-bottom: solid 1px #FA5652;
 }
 
 .contact:hover {
@@ -88,153 +99,287 @@ header {
 /*=============TOP MAIN=============*/
 
 .top-main {
-    background-image: url(/assets/images/background-top.png);
+    background-image: url(/assets/images/background-linear.png);
     background-size: cover;
     padding-top: 200px;
     padding-bottom: 200px;
-    padding-left: 50px;
 }
 
 .container {
-    width: 1270px;
+    width: 1170px;
     margin: 0 auto;
 }
 
 .container h1 {
-    font-size: 50px;
     color: #035755;
     font-weight: bold;
+    letter-spacing: 1px;
     line-height: 130%;
 }
 
 .container h2 {
-    font-size: 30px;
     color: #FA5652;
     font-weight: bold;
+    letter-spacing: 1px;
     line-height: 120%;
 }
 
 .container p {
     width: 700px;
     margin-top: 30px;
+    letter-spacing: 1px;
     margin-bottom: 50px;
-    font-size: 25px;
 }
 
 .btn-main {}
 
 .btn {
     font-weight: bold;
-    padding: 20px 40px;
     display: inline-block;
     border-radius: 65px;
 }
 
 .btn-bg {
-    font-size: 24px;
+    font-size: 20px;
+    padding: 15px 30px;
     color: #fff;
     background-color: #FB4C47;
 }
 
+
 /* ================COVID ABOUT=============== */
+
 .covid-about-main {
-  height: 700px;
-  width: 100%;
+    height: 700px;
+    width: 100%;
 }
+
 .image-about {
-  float: left;
-  width: 700px;
-  height: 700px;
+    float: left;
+    width: 700px;
+    height: 700px;
 }
 
 .covid-about-main-right {
-  float: right;
-  padding-top: 120px;
+    float: right;
+    padding-top: 120px;
 }
+
 .heading h1 {
-  font-size: 50px;
-  color: #035755;
-  font-weight: bold;
-  line-height: 130%;
+    font-size: 50px;
+    color: #035755;
+    font-weight: bold;
+    line-height: 130%;
 }
 
 .heading h2 {
-  padding-bottom: 5px;
-  font-size: 30px;
-  color: #fa5652;
-  font-weight: bold;
-  line-height: 120%;
+    padding-bottom: 5px;
+    font-size: 30px;
+    color: #fa5652;
+    font-weight: bold;
+    line-height: 120%;
 }
 
 .heading p {
-  margin-top: 10px;
-  margin-bottom: 50px;
-  font-size: 20px;
-  line-height: 200%;
-  color: #4b4f51;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    line-height: 200%;
+    color: #4b4f51;
 }
+
 .covid-about-main-right .heading p {
-  width: 600px;
+    width: 600px;
 }
 
 .btn-about {
-  font-weight: bold;
-  padding: 20px 40px;
-  display: inline-block;
-  border-radius: 65px;
-  background-color: #fa5652;
-  opacity: 0.3;
+    font-weight: bold;
+    padding: 20px 40px;
+    display: inline-block;
+    border-radius: 65px;
+    background-color: #fa5652;
+    opacity: 0.3;
 }
+
 .btn-bg-about {
-  font-size: 24px;
-  color: #ffffff;
+    font-size: 24px;
+    color: #ffffff;
 }
+
+
 /* ====================covid-contagion============================= */
+
 .covid-contagion-main {
-  height: 800px;
-  width: 100%;
-  text-align: center;
+    height: 800px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 200px;
 }
+
 .covid-contagion-main .heading p {
-  font-size: 18px;
+    font-size: 18px;
 }
+
 .grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 50px 110px 110px 110px;
-  height: 400px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 50px 110px 110px 110px;
+    height: 400px;
 }
 
 .grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  font-size: 30px;
-  text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 30px;
+    text-align: center;
 }
+
 .grid-item .container {
-  padding: 40px;
-  border-radius: 10%;
-  height: 400px;
-  width: 300px;
-  background-color: #ffffff;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    border-radius: 10%;
+    height: 400px;
+    width: 300px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
+
 .contagion-image {
-  height: 250px;
-  width: 250px;
-  padding-bottom: 12px;
+    height: 250px;
+    width: 250px;
+    padding-bottom: 12px;
 }
 
 .grid-item .container h1 {
-  font-size: 30px;
+    font-size: 30px;
 }
+
 .grid-item .container p {
-  font-size: 18px;
-  width: 300px;
-  margin-top: 4%;
-  color: #4b4f51;
-  line-height: 150%;
+    font-size: 18px;
+    width: 300px;
+    margin-top: 4%;
+    color: #4b4f51;
+    line-height: 150%;
 }
-.image-symptomps{
+
+.image-symptomps {
     height: 90%;
     width: 60%;
+}
+
+
+/* ====================WHAT SHOULD WE DO============================= */
+
+.what-should-we-do {
+    /*position: absolute; */
+    width: 100%;
+    height: 2651.88px;
+    /*top: 4057px; */
+}
+
+.heading {
+    font-style: normal;
+    font-weight: bold;
+    line-height: 124%;
+    text-align: center;
+}
+
+.heading h2 {
+    color: #128E5A;
+    opacity: 0.5;
+    padding-bottom: 30px;
+}
+
+.heading h5 {
+    font-size: 20px;
+    color: #FA5652;
+    opacity: 0.5;
+    padding-bottom: 15px;
+}
+
+.heading h6 {
+    font-size: 12px;
+    padding-bottom: 30px;
+}
+
+
+/* wear dan nose */
+
+.wear {
+    margin-left: 250px;
+    width: 800px;
+    height: 250px;
+    /*  background-color: red; */
+}
+
+.wear .mask {
+    width: 250px;
+    float: right;
+}
+
+
+/*wash dan avoid */
+
+.wash {
+    float: right;
+    margin-right: 250px;
+    width: 800px;
+    height: 250px;
+    /*background-color: red; */
+}
+
+.wash .mask {
+    width: 250px;
+    float: left;
+}
+
+.wash .content {
+    margin-top: 50px;
+    width: 500px;
+    height: 150px;
+    /*background-color: blue; */
+    float: right;
+}
+
+.number {
+    float: left;
+    margin-bottom: 100%;
+}
+
+.ellipse {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    background-color: pink;
+    opacity: 0.5;
+    border-radius: 100%;
+}
+
+.ellipse p {
+    position: absolute;
+    color: #FA5652;
+    opacity: 1;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.text {
+    margin-left: 70px;
+}
+
+.text h5 {
+    font-size: 30px;
+}
+
+.text p {
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+.wear .content {
+    margin-top: 50px;
+    width: 500px;
+    height: 150px;
+    /* background-color: blue; */
+    float: left;
 }
