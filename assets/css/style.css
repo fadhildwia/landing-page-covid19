@@ -38,7 +38,7 @@ a {
 p {
     font-family: 'Gelion', sans-serif;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 
@@ -101,8 +101,7 @@ header {
 .top-main {
     background-image: url(/assets/images/background-linear.png);
     background-size: cover;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 100px;
 }
 
 .container {
@@ -110,11 +109,18 @@ header {
     margin: 0 auto;
 }
 
+.top-main .container {
+    background-image: url(/assets/images/background-top.png);
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
 .container h1 {
     color: #035755;
     font-weight: bold;
     letter-spacing: 1px;
-    line-height: 130%;
+    line-height: 100%;
 }
 
 .container h2 {
@@ -125,7 +131,7 @@ header {
 }
 
 .container p {
-    width: 700px;
+    width: 500px;
     margin-top: 30px;
     letter-spacing: 1px;
     margin-bottom: 50px;
@@ -150,60 +156,57 @@ header {
 /* ================COVID ABOUT=============== */
 
 .covid-about-main {
-    height: 700px;
-    width: 100%;
+    margin: 50px 0;
 }
 
 .image-about {
-    float: left;
-    width: 700px;
-    height: 700px;
+    width: 50%;
+    height: 600px;
 }
 
 .covid-about-main-right {
     float: right;
-    padding-top: 120px;
+    width: 50%;
+}
+
+.heading {
+    margin-top: 100px;
 }
 
 .heading h1 {
-    font-size: 50px;
+    text-align: left;
     color: #035755;
     font-weight: bold;
-    line-height: 130%;
 }
 
 .heading h2 {
-    padding-bottom: 5px;
-    font-size: 30px;
+    text-align: left;
     color: #fa5652;
     font-weight: bold;
-    line-height: 120%;
 }
 
 .heading p {
-    margin-top: 10px;
-    margin-bottom: 50px;
-    font-size: 20px;
-    line-height: 200%;
+    text-align: left;
+    margin-bottom: 40px;
+    line-height: 150%;
     color: #4b4f51;
 }
 
 .covid-about-main-right .heading p {
-    width: 600px;
+    width: 500px;
 }
 
 .btn-about {
     font-weight: bold;
-    padding: 20px 40px;
+    padding: 15px 30px;
     display: inline-block;
     border-radius: 65px;
-    background-color: #fa5652;
-    opacity: 0.3;
+    background-color: rgba(255, 71, 71, 0.3);
 }
 
 .btn-bg-about {
-    font-size: 24px;
-    color: #ffffff;
+    font-size: 20px;
+    color: #FA5652;
 }
 
 
@@ -283,7 +286,7 @@ header {
 }
 
 .heading h2 {
-    color: #128E5A;
+    /* color: #128E5A; */
     opacity: 0.5;
     padding-bottom: 30px;
 }
