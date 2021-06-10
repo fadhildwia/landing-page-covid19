@@ -37,7 +37,6 @@ a {
 
 p {
     font-family: 'Gelion', sans-serif;
-    text-decoration: none;
     font-size: 15px;
 }
 
@@ -55,6 +54,10 @@ header {
 .title {
     margin-top: 10px;
     float: left;
+}
+
+.title {
+    margin-top: 20px;
 }
 
 .logo {
@@ -112,7 +115,7 @@ header {
 .top-main .container {
     background-image: url(/assets/images/background-top.png);
     background-size: cover;
-    padding-top: 100px;
+    padding-top: 150px;
     padding-bottom: 200px;
 }
 
@@ -155,10 +158,6 @@ header {
 
 /* ================COVID ABOUT=============== */
 
-.covid-about-main {
-    margin: 50px 0;
-}
-
 .image-about {
     width: 50%;
     height: 600px;
@@ -167,29 +166,13 @@ header {
 .covid-about-main-right {
     float: right;
     width: 50%;
-}
-
-.heading {
     margin-top: 100px;
 }
 
-.heading h1 {
+.about p {
     text-align: left;
-    color: #035755;
-    font-weight: bold;
-}
-
-.heading h2 {
-    text-align: left;
-    color: #fa5652;
-    font-weight: bold;
-}
-
-.heading p {
-    text-align: left;
-    margin-bottom: 40px;
-    line-height: 150%;
-    color: #4b4f51;
+    margin: 0 auto;
+    padding: 30px 0;
 }
 
 .covid-about-main-right .heading p {
@@ -213,31 +196,27 @@ header {
 /* ====================covid-contagion============================= */
 
 .covid-contagion-main {
-    height: 800px;
-    width: 100%;
     text-align: center;
-    margin-bottom: 200px;
 }
 
-.covid-contagion-main .heading p {
-    font-size: 18px;
+.covid-contagion-main p {
+    text-align: center;
+    padding: 30px 0;
+    margin: 0 auto;
 }
 
 .grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 50px 110px 110px 110px;
-    height: 400px;
+    display: flex;
 }
 
 .grid-item {
+    flex: auto;
     background-color: rgba(255, 255, 255, 0.8);
-    font-size: 30px;
     text-align: center;
 }
 
 .grid-item .container {
-    padding: 40px;
+    padding: 20px;
     border-radius: 10%;
     height: 400px;
     width: 300px;
@@ -246,72 +225,58 @@ header {
 }
 
 .contagion-image {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     padding-bottom: 12px;
 }
 
 .grid-item .container h1 {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .grid-item .container p {
-    font-size: 18px;
-    width: 300px;
-    margin-top: 4%;
+    width: 270px;
     color: #4b4f51;
     line-height: 150%;
 }
 
+
+/* ====================SYMPTOMPS============================= */
+
+.covid-symptomps-main {
+    margin: 100px 0;
+    text-align: center;
+}
+
+.covid-symptomps-main p {
+    text-align: center;
+    padding: 30px 0;
+    margin: 0 auto;
+}
+
 .image-symptomps {
-    height: 90%;
-    width: 60%;
+    height: 40%;
+    width: 40%;
 }
 
 
 /* ====================WHAT SHOULD WE DO============================= */
 
 .what-should-we-do {
-    /*position: absolute; */
-    width: 100%;
-    height: 2651.88px;
-    /*top: 4057px; */
-}
-
-.heading {
-    font-style: normal;
-    font-weight: bold;
-    line-height: 124%;
+    /* position: absolute; */
     text-align: center;
 }
 
-.heading h2 {
-    /* color: #128E5A; */
-    opacity: 0.5;
-    padding-bottom: 30px;
-}
-
-.heading h5 {
-    font-size: 20px;
-    color: #FA5652;
-    opacity: 0.5;
-    padding-bottom: 15px;
-}
-
-.heading h6 {
-    font-size: 12px;
-    padding-bottom: 30px;
+.what-should-we-do .container p {
+    margin: auto;
+    text-align: center;
+    padding: 30px 0;
 }
 
 
 /* wear dan nose */
 
-.wear {
-    margin-left: 250px;
-    width: 800px;
-    height: 250px;
-    /*  background-color: red; */
-}
+.wear {}
 
 .wear .mask {
     width: 250px;
