@@ -102,7 +102,8 @@ header {
 /*=============TOP MAIN=============*/
 
 .top-main {
-    background-image: url("https://github.com/fadhildwia/landing-page-covid19/tree/main/assets/images/background-linear.png");
+    background-color: linear-gradient(0deg, rgba(255, 255, 255, 0) -29.64%, #FFF8F8 45.66%, #B57474 45.66%);
+");
     background-size: cover;
     padding-top: 100px;
 }
